@@ -12,5 +12,11 @@ function learning_theme() {
             ],
             'template' => 'news-results'
         ],
+        'news_page' => [
+            'variables' => [
+                'data' => NULL
+            ],
+            'template' => 'news-page'
+        ],
     ];
 }
