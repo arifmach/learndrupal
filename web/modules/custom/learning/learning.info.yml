@@ -1,0 +1,5 @@
+name: Learning Drupal
+description: Custom module for Drupal learning.
+core_version_requirement: ^10 || ^11
+package: Custom
+type: module

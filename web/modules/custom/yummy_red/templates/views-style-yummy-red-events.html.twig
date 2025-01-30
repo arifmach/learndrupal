@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a view template to display a list of rows.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the container.
+ * - rows: A list of rows.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's contents.
+ * - title: The title of this group of rows. May be empty.
+ *
+ * @see template_preprocess_views_style_yummy_red_events()
+ */
+#}
+        <div>
+          <div class="swiper-wrapper" id="swiper-wrapper-109ade59dc6c5de94" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-421.333px, 0px, 0px); transition-delay: 0ms;">
+
+            <!-- End Event item -->
+
+            <!-- End Event item -->
+
+            <!-- End Event item -->
+
+            <!-- End Event item -->
+         {% for row in rows %}
+          <div class="swiper-slide event-item d-flex flex-column justify-content-end swiper-slide-prev" style="background-image: url(&quot;{{row.url}}&quot;); width: 420.333px; margin-right: 1px;" role="group" aria-label="4 / 4" data-swiper-slide-index="3">
+              <h3>{{row.title}}</h3>
+              <div class="price align-self-start">{{row.Price_events}}</div>
+              <p class="description">
+                {{row.Body}}
+              </p>
+        </div>
+        {% endfor %}
+ </div>
+
+         

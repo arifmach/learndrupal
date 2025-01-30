@@ -1,0 +1,25 @@
+name: YummyRed
+type: theme
+base theme: false
+description: A flexible theme with a responsive, mobile-first layout.
+package: Custom
+core_version_requirement: ^10 || ^11
+libraries:
+  - yummyred/global
+regions:
+  header: 'Header'
+  hero_section: 'Hero Section'
+  about_us: 'About Us'
+  why_us_section: 'Why Us Section'
+  stats_section: 'Stats Section'
+  menu_section: 'Menu section'
+  testimonials_section: 'Testimonials Section'
+  events_section: 'Events Section'
+  chefs_section: 'Chefs Section'
+  book_a_table_section: 'Book A Table Section'
+  gallery_section: 'Gallery Section'
+  contact_section: 'Contact Section'
+  contact_map:  'Contact Map'
+  contact_form:  'Contact Form'
+  content: 'Content'
+  footer: 'Footer'

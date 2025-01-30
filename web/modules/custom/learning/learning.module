@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function learning_theme() {
+
+    return [
+        'learning_news_block' => [
+            'variables' => [
+                'data' => NULL
+            ],
+            'template' => 'news-results'
+        ],
+    ];
+}

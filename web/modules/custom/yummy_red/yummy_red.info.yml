@@ -1,0 +1,5 @@
+name: YummyRed
+type: module
+description: A custom module for custom work.
+package: Custom
+core_version_requirement:  ^9 || ^10
