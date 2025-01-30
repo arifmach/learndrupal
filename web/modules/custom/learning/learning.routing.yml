@@ -1,0 +1,7 @@
+learning.custompage:
+  path: "/custom-page-code"
+  defaults:
+    _controller: '\Drupal\learning\Controller\LearningController::customPage'
+    _title: "Custom Page Code"
+  requirements:
+    _permission: "access content"
