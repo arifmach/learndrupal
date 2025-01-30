@@ -1,0 +1,31 @@
+views.style.yummy_red_our_menu:
+  type: views_style
+  label: 'OurMenu'
+  mapping:
+    wrapper_class:
+      type: string
+      label: 'Wrapper class'
+
+views.style.yummy_red_testimonials:
+  type: views_style
+  label: 'TESTIMONIALS'
+  mapping:
+    wrapper_class:
+      type: string
+      label: 'Wrapper class'
+
+views.style.yummy_red_events:
+  type: views_style
+  label: 'Events'
+  mapping:
+    wrapper_class:
+      type: string
+      label: 'Wrapper class'
+
+views.style.yummy_red_gallery:
+  type: views_style
+  label: 'Gallery'
+  mapping:
+    wrapper_class:
+      type: string
+      label: 'Wrapper class'
